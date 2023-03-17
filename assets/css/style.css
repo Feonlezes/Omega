@@ -1,0 +1,161 @@
+/* fonts */
+@font-face {
+    font-family: Aegean;
+    src: url(../fonts/Aegean-8jJ2.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+/* end fonts */
+
+/* section */
+section {
+    margin: 40px 0;
+}
+
+.section__title {
+    margin-bottom: 30px;
+}
+/* end section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Aegean;
+    font-weight: normal;
+}
+
+/* header */
+.header__bg {
+    background-color: rgba(238, 238, 238, 0.79);
+}
+
+.header__logo {
+    width: 70px;
+    height: 70px;
+}
+
+.btn__left {
+    margin-right: 20px;
+}
+
+.form__reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.rules {
+    margin-left: 10px;
+}
+
+.text__red {
+    color: red;
+}
+
+/* end header */
+
+/* about us */
+.about__us_logo {
+    margin-top: 30px;
+}
+
+.about__us_motto {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.about__us {
+    text-align: center;
+}
+
+.car__bg {
+    position: absolute;
+    background-color: rgba(36, 153, 231, 0.664);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.car__text {
+    color: #fff;
+    font-size: 36px;
+}
+/* end about us */
+
+/* afisha */
+.card__text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.cart__href {
+    text-decoration: none;
+    color: #000;
+}
+
+.cart__href:hover {
+    color: #000;
+}
+
+.card__afisha_one {
+    width: 500px;
+    float: left;
+}
+
+.afisha_one {
+    text-align: center;
+}
+
+.card__afisha_body {
+    margin-left: 50px;
+    float: left;
+    text-align: left;
+    width: 500px;
+}
+
+.afisha_one_all_body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cart__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+}
+
+.card__one {
+    width: calc((100% / 5) - 20px);
+    margin: 10px;
+}
+
+.card__image {
+    width: 300px;
+    height: 200px;
+}
+/* end afisha */
+
+/* find */
+.map_find {
+    float: left;
+    width: 700px;
+}
+
+.map__content {
+    padding-left: 30px;
+    display: grid;
+}
+
+/* end find */
